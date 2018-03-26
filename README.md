@@ -18,7 +18,7 @@ With PC-Details possible is to retrieve informations of software such as Operati
 
 
 ## Supported platforms 
-Windows • Linux • Mac OS X • Unix (Solaris, FreeBSD)
+Windows • Linux • Mac OS X • Unix
 
 ## Requirements
  - Java 1.8+
@@ -39,6 +39,24 @@ Windows • Linux • Mac OS X • Unix (Solaris, FreeBSD)
 | 1.0.7 | [pc-details-1.0.7-SNAPSHOT.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jarhttps://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jar) | Newest stable release version
 | 1.0.7r | [pc-details-1.0.7-SNAPSHOT-runnable.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jarhttps://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT-runnable.jar) | Newest stable release version with runnable class
 
+## Usage
+There are three ways to retrieve component information:
+```
+1)
+HardwareInfo<Cpu> cpuInfo = new CpuInfo();
+Cpu cpu = cpuInfo.buildHardware();
+System.out.println(cpu.componentAsString());
+
+2)
+Cpu cpu = (Cpu) DeviceFactory.getHardware(DeviceFactory.HardwareType.CPU).buildHardware();
+System.out.println(cpu.componentAsString());
+
+3)
+Cpu cpu = PCDetailsFactory.getProcessorInfo();
+System.out.println(cpu.componentAsString());
+```
+- Sample code with main you can find [here PCDetailsExample.java](https://github.com/Vallendir/PC-Details/blob/master/src/main/java/pcd/example/PCDetailsExample.java).
+- Runnable version of code you can find [here PCDetailsConsoleParameters.java](https://github.com/Vallendir/PC-Details/blob/master/src/main/java/pcd/example/PCDetailsConsoleParameters.java). 
 
 ## Author
  - Mateusz Mucha aka [Vallendir](https://github.com/Vallendir) 
@@ -46,11 +64,3 @@ Windows • Linux • Mac OS X • Unix (Solaris, FreeBSD)
 
 ## License
 PC-Details project library is licensed under the Apache License Version 2.0. See the [License](https://github.com/Vallendir/PC-Details/blob/master/LICENSE) file for more informations.
-
-
-
-
-
-
-
-
