@@ -33,8 +33,8 @@ Windows • Linux • Mac OS X • Unix
 ## Downloads
 | Version | Download from GitHub /mvn-repo/ catalog | Description | 
 | ------------- | ------------- | ------------- |
-| 1.0.7 | [pc-details-1.0.7-SNAPSHOT.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jarhttps://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jar) | Newest stable release version
-| 1.0.7r | [pc-details-1.0.7-SNAPSHOT-runnable.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jarhttps://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT-runnable.jar) | Newest stable release version with runnable class
+| 1.0.7 | [pc-details-1.0.7-SNAPSHOT.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jar) | Newest stable release version
+| 1.0.7r | [pc-details-1.0.7-SNAPSHOT-runnable.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT-runnable.jar) | Newest stable release version with runnable class
 
 ## Usage
 There are three ways to retrieve component information:
