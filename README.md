@@ -1,6 +1,6 @@
 
 <p align="center">
-<img width="50%" src="https://github.com/Vallendir/mmucha-lib/blob/master/Java/PC-Details/header.png" alt="PC-Details"/>
+<img width="50%" src="https://github.com/Vallendir/PC-Details/blob/master/header.png" alt="PC-Details"/>
 </p>
   
 [![Build Status](https://travis-ci.org/Vallendir/PC-Details.svg?branch=master)](https://travis-ci.org/Vallendir/PC-Details)
