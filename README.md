@@ -7,9 +7,6 @@
 ![Build Version](https://img.shields.io/badge/version-1.0.7-blue.svg)
 ![Build Language](https://img.shields.io/badge/language-Java%201.8-orange.svg)
 ![Build Release](https://img.shields.io/badge/release%20jar%27s-%2Fmvn--repo%2F-yellowgreen.svg)
-[![Build Issues](https://img.shields.io/github/issues/Vallendir/PC-Details.svg)](https://github.com/Vallendir/PC-Details/issues)
-[![Build Forks](https://img.shields.io/github/forks/Vallendir/PC-Details.svg)](https://github.com/Vallendir/PC-Details/network)
-[![Build Stars](https://img.shields.io/github/stars/Vallendir/PC-Details.svg)](https://github.com/Vallendir/PC-Details/stargazers)
 ![Build License](https://img.shields.io/badge/license-Apache%20License%20Version%202.0-red.svg)
 
 
