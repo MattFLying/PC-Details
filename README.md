@@ -33,8 +33,8 @@ Windows • Linux • Mac OS X • Unix
 ## Downloads
 | Version | Download from GitHub /mvn-repo/ catalog | Description | 
 | ------------- | ------------- | ------------- |
-| 1.0.7 | [pc-details-1.0.7-SNAPSHOT.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jar) | Newest stable release version
-| 1.0.7r | [pc-details-1.0.7-SNAPSHOT-runnable.jar](https://github.com/Vallendir/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT-runnable.jar) | Newest stable release version with runnable class
+| 1.0.7 | [pc-details-1.0.7-SNAPSHOT.jar](https://github.com/MattFLying/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT.jar) | Newest stable release version
+| 1.0.7r | [pc-details-1.0.7-SNAPSHOT-runnable.jar](https://github.com/MattFLying/PC-Details/raw/master/mvn-repo/pc-details-1.0.7-SNAPSHOT-runnable.jar) | Newest stable release version with runnable class
 
 ## Usage
 There are three ways to retrieve component information:
@@ -52,12 +52,12 @@ System.out.println(cpu.componentAsString());
 Cpu cpu = PCDetailsFactory.getProcessorInfo();
 System.out.println(cpu.componentAsString());
 ```
-- Sample code with main you can find [here PCDetailsExample.java](https://github.com/Vallendir/PC-Details/blob/master/src/main/java/pcd/example/PCDetailsExample.java).
-- Runnable version of code you can find [here PCDetailsConsoleParameters.java](https://github.com/Vallendir/PC-Details/blob/master/src/main/java/pcd/example/PCDetailsConsoleParameters.java). 
+- Sample code with main you can find [here PCDetailsExample.java](https://github.com/MattFLying/PC-Details/blob/master/src/main/java/pcd/example/PCDetailsExample.java).
+- Runnable version of code you can find [here PCDetailsConsoleParameters.java](https://github.com/MattFLying/PC-Details/blob/master/src/main/java/pcd/example/PCDetailsConsoleParameters.java). 
 
 ## Author
- - Mateusz Mucha aka [Vallendir](https://github.com/Vallendir) 
+ - Mateusz Mucha aka [MattFLying](https://github.com/MattFLying) 
  - Email: mateusz.marek.mucha@gmail.com
 
 ## License
-PC-Details project library is licensed under the Apache License Version 2.0. See the [License](https://github.com/Vallendir/PC-Details/blob/master/LICENSE) file for more informations.
+PC-Details project library is licensed under the Apache License Version 2.0. See the [License](https://github.com/MattFLying/PC-Details/blob/master/LICENSE) file for more informations.
